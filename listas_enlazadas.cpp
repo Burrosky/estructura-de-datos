@@ -164,7 +164,7 @@ void eliminarElemento(int n, Lista* lista) {
             Nodo* eliminado = puntero->siguiente;
             puntero->siguiente = eliminado->siguiente;
             destruirNodo(eliminado);
-            lista->longitud;
+            lista->longitud--;
         }
     }
     else {
